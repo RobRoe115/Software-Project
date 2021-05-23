@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "496117889637",
+    "firebase_url": "https://gioimg.firebaseio.com",
+    "project_id": "gioimg",
+    "storage_bucket": "gioimg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496117889637:android:6662efc4ee3783cca7648c",
+        "android_client_info": {
+          "package_name": "com.example.gioimg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496117889637-9oh0nsi7tp5bnolf45sckdck9kg5ahmq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gioimg",
+            "certificate_hash": "965317e205d50866447433185e216420b7b1e63f"
+          }
+        },
+        {
+          "client_id": "496117889637-tm448vj7ncsvssvlhjsfbvg535htse8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4kCNBgQYd7R605rq3hiLKNSSTe8nfzQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496117889637-tm448vj7ncsvssvlhjsfbvg535htse8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
