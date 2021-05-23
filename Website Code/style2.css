@@ -1,0 +1,38 @@
+a{
+    color:white;
+}
+.top{
+	height:20%;
+	width:100%;
+	float:left;
+}
+
+.topN{
+	float:right;
+	padding-bottom:20px;
+	padding-top:20px
+}
+.login{
+	float:left;
+
+}
+.bottomLeft{
+	Float:left;
+	
+}
+.bottomRight{
+
+	Float:left;
+	padding-left:100px;
+	
+}
+.mapPic{
+	padding-bottom:20px;
+	padding-left:10px;
+}
+
+
+
+
+
+
