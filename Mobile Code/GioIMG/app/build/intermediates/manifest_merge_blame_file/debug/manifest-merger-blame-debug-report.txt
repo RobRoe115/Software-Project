@@ -1,0 +1,216 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.gioimg"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:5:22-76
+13
+14    <uses-feature
+14-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\43cd8270e9d38e61b0cf359c93831857\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:9:5-11:35
+15        android:glEsVersion="0x00020000"
+15-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\43cd8270e9d38e61b0cf359c93831857\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:10:9-41
+16        android:required="true" />
+16-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\43cd8270e9d38e61b0cf359c93831857\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:11:9-32
+17    <uses-feature
+17-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\43cd8270e9d38e61b0cf359c93831857\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:12:5-14:36
+18        android:name="android.hardware.wifi"
+18-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\43cd8270e9d38e61b0cf359c93831857\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:13:9-45
+19        android:required="false" />
+19-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\43cd8270e9d38e61b0cf359c93831857\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:14:9-33
+20
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\43cd8270e9d38e61b0cf359c93831857\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:17:5-79
+21-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\43cd8270e9d38e61b0cf359c93831857\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:17:22-76
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\43cd8270e9d38e61b0cf359c93831857\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:18:5-76
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\43cd8270e9d38e61b0cf359c93831857\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:18:22-73
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\9fa916783ef4954356f79d7e1ed1f841\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:24:5-68
+23-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\9fa916783ef4954356f79d7e1ed1f841\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:24:22-65
+24    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+24-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\ff08b2a53d9ad7d2c428295327dd8fbd\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:26:5-110
+24-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\ff08b2a53d9ad7d2c428295327dd8fbd\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:26:22-107
+25
+26    <application
+26-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:8:5-32:19
+27        android:allowBackup="true"
+27-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:9:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.3.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\d6a8d7a66dc163ff7138d560d22f3a81\core-1.3.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:10:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:11:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:12:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:13:9-35
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme" >
+35-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:14:9-40
+36        <activity android:name="com.example.gioimg.LoginActivity" />
+36-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:15:9-60
+36-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:15:19-48
+37        <activity android:name="com.example.gioimg.RegisterActivity" >
+37-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:16:9-22:20
+37-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:16:19-51
+38            <intent-filter>
+38-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:17:9-21:25
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:18:13-65
+39-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:18:21-62
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:20:13-73
+41-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:20:23-70
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:23:9-26:59
+45            android:name="com.example.gioimg.ClickToAddImageActivity"
+45-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:24:13-52
+46            android:label="@string/title_activity_click_to_add_image"
+46-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:25:13-70
+47            android:theme="@style/AppTheme.NoActionBar" />
+47-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:26:13-56
+48        <activity
+48-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:27:9-31:20
+49            android:name="com.example.gioimg.MainActivity"
+49-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:28:13-41
+50            android:label="@string/app_name"
+50-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:29:13-45
+51            android:theme="@style/AppTheme.NoActionBar" >
+51-->C:\Users\rober\OneDrive\Documents\Software Project\Code\Mobile Code\GioIMG\app\src\main\AndroidManifest.xml:30:13-56
+52        </activity>
+53        <activity
+53-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\a8b5ccc88ce16a9edfde8c10e4882703\jetified-firebase-auth-19.3.2\AndroidManifest.xml:24:9-31:50
+54            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+54-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\a8b5ccc88ce16a9edfde8c10e4882703\jetified-firebase-auth-19.3.2\AndroidManifest.xml:25:13-85
+55            android:excludeFromRecents="true"
+55-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\a8b5ccc88ce16a9edfde8c10e4882703\jetified-firebase-auth-19.3.2\AndroidManifest.xml:26:13-46
+56            android:exported="true"
+56-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\a8b5ccc88ce16a9edfde8c10e4882703\jetified-firebase-auth-19.3.2\AndroidManifest.xml:27:13-36
+57            android:launchMode="singleTask"
+57-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\a8b5ccc88ce16a9edfde8c10e4882703\jetified-firebase-auth-19.3.2\AndroidManifest.xml:28:13-44
+58            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+58-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\a8b5ccc88ce16a9edfde8c10e4882703\jetified-firebase-auth-19.3.2\AndroidManifest.xml:29:13-102
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+59-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\a8b5ccc88ce16a9edfde8c10e4882703\jetified-firebase-auth-19.3.2\AndroidManifest.xml:30:13-72
+60
+61        <service
+61-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\a8b5ccc88ce16a9edfde8c10e4882703\jetified-firebase-auth-19.3.2\AndroidManifest.xml:33:9-39:19
+62            android:name="com.google.firebase.components.ComponentDiscoveryService"
+62-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\a8b5ccc88ce16a9edfde8c10e4882703\jetified-firebase-auth-19.3.2\AndroidManifest.xml:34:13-84
+63            android:directBootAware="true"
+63-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\da291f3cf3526ed6ad5aa7e1a43f6529\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+64            android:exported="false" >
+64-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\a8b5ccc88ce16a9edfde8c10e4882703\jetified-firebase-auth-19.3.2\AndroidManifest.xml:35:13-37
+65            <meta-data
+65-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\a8b5ccc88ce16a9edfde8c10e4882703\jetified-firebase-auth-19.3.2\AndroidManifest.xml:36:13-38:85
+66                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+66-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\a8b5ccc88ce16a9edfde8c10e4882703\jetified-firebase-auth-19.3.2\AndroidManifest.xml:37:17-109
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\a8b5ccc88ce16a9edfde8c10e4882703\jetified-firebase-auth-19.3.2\AndroidManifest.xml:38:17-82
+68            <meta-data
+68-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\9fa916783ef4954356f79d7e1ed1f841\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:30:13-32:85
+69                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+69-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\9fa916783ef4954356f79d7e1ed1f841\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:31:17-139
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\9fa916783ef4954356f79d7e1ed1f841\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:32:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\29aadbfa3bec73b170c51cfe2a046805\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+72                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+72-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\29aadbfa3bec73b170c51cfe2a046805\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\29aadbfa3bec73b170c51cfe2a046805\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+74        </service>
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\7abc7fbd3e7196b1e248ff42f47ea0b7\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\7abc7fbd3e7196b1e248ff42f47ea0b7\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\7abc7fbd3e7196b1e248ff42f47ea0b7\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\7abc7fbd3e7196b1e248ff42f47ea0b7\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+80
+81        <provider
+81-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\da291f3cf3526ed6ad5aa7e1a43f6529\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+82            android:name="com.google.firebase.provider.FirebaseInitProvider"
+82-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\da291f3cf3526ed6ad5aa7e1a43f6529\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+83            android:authorities="com.example.gioimg.firebaseinitprovider"
+83-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\da291f3cf3526ed6ad5aa7e1a43f6529\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+84            android:exported="false"
+84-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\da291f3cf3526ed6ad5aa7e1a43f6529\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+85            android:initOrder="100" />
+85-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\da291f3cf3526ed6ad5aa7e1a43f6529\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+86
+87        <receiver
+87-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\ff08b2a53d9ad7d2c428295327dd8fbd\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:29:9-33:20
+88            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+88-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\ff08b2a53d9ad7d2c428295327dd8fbd\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:30:13-85
+89            android:enabled="true"
+89-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\ff08b2a53d9ad7d2c428295327dd8fbd\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:31:13-35
+90            android:exported="false" >
+90-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\ff08b2a53d9ad7d2c428295327dd8fbd\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:32:13-37
+91        </receiver>
+92
+93        <service
+93-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\ff08b2a53d9ad7d2c428295327dd8fbd\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:35:9-38:40
+94            android:name="com.google.android.gms.measurement.AppMeasurementService"
+94-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\ff08b2a53d9ad7d2c428295327dd8fbd\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:36:13-84
+95            android:enabled="true"
+95-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\ff08b2a53d9ad7d2c428295327dd8fbd\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:37:13-35
+96            android:exported="false" />
+96-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\ff08b2a53d9ad7d2c428295327dd8fbd\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:38:13-37
+97        <service
+97-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\ff08b2a53d9ad7d2c428295327dd8fbd\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:39:9-43:72
+98            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+98-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\ff08b2a53d9ad7d2c428295327dd8fbd\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:40:13-87
+99            android:enabled="true"
+99-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\ff08b2a53d9ad7d2c428295327dd8fbd\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:41:13-35
+100            android:exported="false"
+100-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\ff08b2a53d9ad7d2c428295327dd8fbd\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:42:13-37
+101            android:permission="android.permission.BIND_JOB_SERVICE" />
+101-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\ff08b2a53d9ad7d2c428295327dd8fbd\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:43:13-69
+102
+103        <meta-data
+103-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\884f9894ca3ec6d8c2e9eaf8b029fe8f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+104            android:name="com.google.android.gms.version"
+104-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\884f9894ca3ec6d8c2e9eaf8b029fe8f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+105            android:value="@integer/google_play_services_version" />
+105-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\884f9894ca3ec6d8c2e9eaf8b029fe8f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+106
+107        <provider
+107-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\8ebd91eedeb704aeb9bc210ac5ed547d\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:18:9-22:39
+108            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+108-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\8ebd91eedeb704aeb9bc210ac5ed547d\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:19:13-93
+109            android:authorities="com.example.gioimg.mapboxtelemetryinitprovider"
+109-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\8ebd91eedeb704aeb9bc210ac5ed547d\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:20:13-79
+110            android:exported="false"
+110-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\8ebd91eedeb704aeb9bc210ac5ed547d\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:21:13-37
+111            android:initOrder="100" />
+111-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\8ebd91eedeb704aeb9bc210ac5ed547d\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:22:13-36
+112
+113        <service
+113-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\8ebd91eedeb704aeb9bc210ac5ed547d\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:24:9-26:72
+114            android:name="com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService"
+114-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\8ebd91eedeb704aeb9bc210ac5ed547d\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:25:13-93
+115            android:permission="android.permission.BIND_JOB_SERVICE" />
+115-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\8ebd91eedeb704aeb9bc210ac5ed547d\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:26:13-69
+116    </application>
+117
+118</manifest>
