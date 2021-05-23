@@ -1,0 +1,4 @@
+#Fri Jan 08 23:00:20 GMT 2021
+base.0=C\:\\Users\\rober\\OneDrive\\Documents\\Software Project\\Code\\Mobile Code\\GioIMG\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
